@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    min-width: 320px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    background-image: url(/images/1920x1080resize_portfolio88128_13_1541436462.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.block{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+li{
+    padding:15px 5px;
+    background-image: url(/images/newcard.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+    color :#fff
+}
